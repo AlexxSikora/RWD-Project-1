@@ -38,7 +38,14 @@ body {
 	color: #09f;
 }
 
+.section-title {
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
 /* nav */
+
 nav {
 	height: 60px;
 	line-height: 60px;
@@ -69,6 +76,33 @@ nav {
 	background-image: url('../img/wolves-1341881_640.jpg');
 	background-size: cover;
 	background-position: center;
+}
+
+/* main */
+
+main {
+	margin: 80px 0;
+}
+
+.about-us-info {
+	margin-bottom: 10px;
+}
+
+.products {
+	margin: 60px auto;
+}
+
+.products h3 {
+	text-transform: uppercase;
+}
+
+.first-product {
+	position: relative;
+	height: 300px;
+	background-image: url('../img/children-593313_640.jpg');
+	background-size: cover;
+	background-position: cover;
+	text-align: center;
 }
 
 @media (min-width: 768px) {
